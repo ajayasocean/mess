@@ -1,0 +1,11 @@
+# mixed arithmetic operations
+print(int(4.75))
+print(float(5))
+print(str(97))
+print(11/2)
+print(11/2.0)
+print(ord('A'))
+print(chr(65))
+print(int(4.5))
+print(float(4))
+print(str(4.5))

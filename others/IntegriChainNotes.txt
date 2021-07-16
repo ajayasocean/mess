@@ -1,0 +1,121 @@
+Integrichain
+
+
+1. Pro
+2. Test Plan: Entr
+
+
+
+from mysql connector as connector
+
+
+access = connector.connect('host', 'port', 'username', 'password')
+
+access.execute('queries here')
+
+
+
+csv
+
+a,b,c,
+1,2,3,
+
+
+a | b | c |
+1 | 2 | 3 |
+
+csv reader
+
+open ('path to file', r) as reader
+  for each
+    reader.readline()
+
+
+str1 = ajayasocean@gmail.com
+
+lst = []
+
+len_str = len(str1)
+
+for char in range(0,len_str)
+  lst.append(char)
+
+len_lst = len(lst)
+
+while (i)
+
+enumerate
+
+
+lst  = [2,6,4,7,4,6,7,2]
+
+new_lst = []
+
+for each in lst:
+  if each NOT IN new_lst:
+    new_lst.append(each)
+
+print(lst)
+
+list of set of list
+------------------
+t1: find even rows
+
+consider, column as id (int)
+
+select * from t1 where
+
+
+-------
+Union and union all
+
+t1 , t2
+
+view result of all records Union
+
+----------
+
+
+Pharmachuticals
+
+Data products
+
+channel
+
+Data patient side
+
+special drugs
+DEA ?
+
+administrations to patient
+
+aggregator
+
+distribution of drugs
+
+patient status
+
+timely updates
+
+partners and patient
+
+------
+Soft dev team
+
+road map
+agile
+Implementations
+PM and dev teams involved
+QA prod dev
+confgi
+prod support
+
+
+python jupiter notebooks
+aws
+s3 buckets
+
+sql dynamico
+red chef
+
+data delivery mechanisms

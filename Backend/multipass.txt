@@ -1,0 +1,27 @@
+Multipass:
+ajaysagar@Ajays-MacBook-Pro ~ % multipass launch
+Launched: eternal-pony
+ajaysagar@Ajays-MacBook-Pro ~ % multipass info eternal-pony
+Name:           eternal-pony
+State:          Running
+IPv4:           192.168.64.2
+Release:        Ubuntu 20.04.2 LTS
+Image hash:     b03047b147b6 (Ubuntu 20.04 LTS)
+Load:           0.14 0.26 0.11
+Disk usage:     1.3G out of 4.7G
+Memory usage:   131.8M out of 981.3M
+Mounts:         --
+
+$  multipass shell eternal-pony
+
+ubuntu@eternal-pony:~$
+ubuntu@eternal-pony:~$ whoami
+ubuntu
+ubuntu@eternal-pony:~$ sudo su -
+root@eternal-pony:~# vi /etc/ssh/sshd_config
+root@eternal-pony:~# service sshd reload
+root@eternal-pony:~# passwd ubuntu
+New password:
+Retype new password:
+passwd: password updated successfully
+root@eternal-pony:~#
