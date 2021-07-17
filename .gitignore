@@ -132,6 +132,6 @@ dmypy.json
 .idea/
 Backend/AllureReports/*.json
 Backend/AllureReports/*.html
-.DSS_Store
-puzzle/.DSS_Store
-Backend/.DSS_Store
+.DS_Store
+puzzle/.DS_Store
+Backend/.DS_Store
