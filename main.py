@@ -7,7 +7,7 @@
 # from Selenium.CheckBox import checkbox
 # from Selenium.RadioButton import radio_button
 # from Selenium.alerts import alerts_script
-# from Selenium.syncro import cart_script
+from Selenium.syncro import cart_script
 # from ZomatoScraper.scraping import scraping
 # from puzzle.ManualPuzzle import man_puz
 
@@ -16,7 +16,7 @@ def main():
     print("My mess, my hell")
     # passing browser type
     # browser = "chrome"
-    # browser = "headless_chrome"
+    browser = "headless_chrome"
     # calling IntroSelenium Script
     # intro_selenium(browser)
 
@@ -41,8 +41,8 @@ def main():
     # calling alerts.py
     # alerts_script(browser)
 
-    # calling alerts.py
-    # cart_script(browser)
+    # calling syncro.py
+    cart_script(browser)
 
     # calling ZomatoSraper project (scraping.py)
     # scraping()
