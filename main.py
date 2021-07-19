@@ -7,9 +7,10 @@
 # from Selenium.CheckBox import checkbox
 # from Selenium.RadioButton import radio_button
 # from Selenium.alerts import alerts_script
-from Selenium.syncro import cart_script
+# from Selenium.syncro import cart_script
 # from ZomatoScraper.scraping import scraping
 # from puzzle.ManualPuzzle import man_puz
+from Selenium.ChildWindow import switch_child
 
 
 def main():
@@ -17,6 +18,7 @@ def main():
     # passing browser type
     # browser = "chrome"
     browser = "headless_chrome"
+
     # calling IntroSelenium Script
     # intro_selenium(browser)
 
@@ -42,13 +44,16 @@ def main():
     # alerts_script(browser)
 
     # calling syncro.py
-    cart_script(browser)
+    # cart_script(browser)
 
     # calling ZomatoSraper project (scraping.py)
     # scraping()
 
     # calling chinese puzzle manual version
     # man_puz()
+
+    # calling ChildWindow.py
+    switch_child(browser)
 
 
 if __name__ == '__main__':
