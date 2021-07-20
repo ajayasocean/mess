@@ -10,7 +10,10 @@
 # from Selenium.syncro import cart_script
 # from ZomatoScraper.scraping import scraping
 # from puzzle.ManualPuzzle import man_puz
-from Selenium.ChildWindow import switch_child
+# from Selenium.ChildWindow import switch_child
+# from Selenium.FramesDemo import handle_frames
+# from Selenium.ChainAction import adv_interactions
+# from Selenium.ActionClick import d_click
 
 
 def main():
@@ -53,7 +56,16 @@ def main():
     # man_puz()
 
     # calling ChildWindow.py
-    switch_child(browser)
+    # switch_child(browser)
+
+    # calling FramesDemo.py
+    # handle_frames(browser)
+
+    # calling ChainAction.py
+    # adv_interactions(browser)
+
+    # calling ActionClick.py
+    # d_click(browser)
 
 
 if __name__ == '__main__':
