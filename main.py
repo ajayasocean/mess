@@ -14,6 +14,7 @@
 # from Selenium.FramesDemo import handle_frames
 # from Selenium.ChainAction import adv_interactions
 # from Selenium.ActionClick import d_click
+from Selenium.JsDemo import js_demo
 
 
 def main():
@@ -66,6 +67,9 @@ def main():
 
     # calling ActionClick.py
     # d_click(browser)
+
+    # calling JsDemo.py
+    js_demo(browser)
 
 
 if __name__ == '__main__':

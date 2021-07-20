@@ -35,6 +35,7 @@ def alerts_script(browser):
 
     # cancelling the alert to close it
     alert.dismiss()
+
     driver.close()
     driver.quit()
     print("alerts.py finished execution")
