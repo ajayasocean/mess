@@ -135,3 +135,5 @@ Backend/AllureReports/*.html
 .DS_Store
 puzzle/.DS_Store
 Backend/.DS_Store
+Selenium/screenshot/*.png
+

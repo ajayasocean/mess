@@ -14,14 +14,15 @@
 # from Selenium.FramesDemo import handle_frames
 # from Selenium.ChainAction import adv_interactions
 # from Selenium.ActionClick import d_click
-from Selenium.JsDemo import js_demo
+# from Selenium.JsDemo import js_demo
+# from Selenium.e2etest import end_to_end
 
 
 def main():
     print("My mess, my hell")
     # passing browser type
-    # browser = "chrome"
-    browser = "headless_chrome"
+    browser = "chrome"
+    # browser = "headless_chrome"
 
     # calling IntroSelenium Script
     # intro_selenium(browser)
@@ -69,7 +70,10 @@ def main():
     # d_click(browser)
 
     # calling JsDemo.py
-    js_demo(browser)
+    # js_demo(browser)
+
+    # calling e2etest.py, use browser = chrome only for this one
+    # end_to_end(browser)
 
 
 if __name__ == '__main__':

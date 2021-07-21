@@ -14,9 +14,9 @@ class Driver:
     def call_headless_chrome(self):
         # to run chromedriver in headless mode
         chrome_options = Options()
-        chrome_options.add_argument("headless")
-        chrome_options.add_argument("--start-maximized")  # maximized mode
-        chrome_options.add_argument("--ignore-certificate-errors")  # ignoring certificate errors
+        chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--start-maximized")  # maximized mode
+        # chrome_options.add_argument("--ignore-certificate-errors")  # ignoring certificate errors
         w_driver = webdriver.Chrome('/usr/local/share/chromedriver', service_args=self.logger, options=chrome_options)
         return w_driver
 
