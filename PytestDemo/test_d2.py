@@ -7,10 +7,20 @@
 # to run all tests in package : py.test
 # to run all tests in package with details : py.test -v -s
 """
+import pytest
 
 
-def test_3():
-    msg = 'Hello'
-    assert msg == 'Hello'
+@pytest.mark.smoke
+@pytest.mark.skip
+def test_d2_1():
+    msg = 'Welcome'
+    assert msg == 'Sagar'
+
+
+def test_d2_2():
+    a = 4
+    b = 6
+    assert a+2 == b, "Additon match"
+
 
 

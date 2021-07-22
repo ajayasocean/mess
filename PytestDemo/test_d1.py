@@ -5,12 +5,15 @@
 # navigate to pytest package (directory) then
 # to run all tests in package : py.test
 """
+import pytest
 
 
-def test_1():
+def test_d1_1():
     print("Hello")
 
 
-def test_2():
-    print("Ajay")
+@pytest.mark.xfail
+def test_d1_2():
+    msg = 'Sagar'
+    assert msg == 'Hello'
 
