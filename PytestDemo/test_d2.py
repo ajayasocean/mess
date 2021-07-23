@@ -11,12 +11,12 @@ import pytest
 
 
 @pytest.mark.smoke
-@pytest.mark.skip
 def test_d2_1():
     msg = 'Welcome'
     assert msg == 'Sagar'
 
 
+@pytest.mark.skip
 def test_d2_2():
     a = 4
     b = 6
