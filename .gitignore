@@ -136,4 +136,5 @@ Backend/AllureReports/*.html
 puzzle/.DS_Store
 Backend/.DS_Store
 Selenium/screenshot/*.png
-
+PytestDemo/*.html
+PytestDemo/assets/

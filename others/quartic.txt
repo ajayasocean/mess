@@ -1,0 +1,69 @@
+def get_char_frequencies(s):
+    '''
+    returns dictionary of frequencies of each letter in string
+    '''
+    # set frequencies of all letters to 0
+    freq = {char: 0 for char in ascii_lowercase}
+    # count frequencies
+    for char in s:
+        freq[char] += 1
+    return freq
+
+
+def are_2_strings_almost_equivalent(s1, s2):
+    '''
+    returns True if s1 and s2 are almost equivalent
+    '''
+    # check if lengths are equal
+    if len(s1) != len(s2):
+        return False
+    # get frequencies of letters
+    freq_s1 = get_char_frequencies(s1)
+    freq_s2 = get_char_frequencies(s2)
+    # check that for all letters frequencies differ no more than 3
+    for char in ascii_lowercase:
+        if abs(freq_s1[char] - freq_s2[char]) > 3:
+            return False
+    # if no significant difference was found
+    return True
+
+-----------
+
+
+def printRLE(s):
+    i = 0
+    _return_this = ''
+    while i < len(s) - 1:
+
+        # Counting occurrences of s[i]
+        count = 1
+
+        while s[i] == s[i + 1]:
+
+            i += 1
+            count += 1
+
+            if i + 1 == len(s):
+                break
+
+        _return_this += str(s[i]) + (f'{str(count)}' if count > 1 else '')
+        i += 1
+
+    return _return_this
+
+
+--------
+
+import math
+
+def findMaximumHeight(N):
+
+    # calculating portion inside the square root
+    n = 1 + 8*N
+    maxH = (-1 + math.sqrt(n)) / 2
+    return int(maxH)
+
+-------
+
+[i for i, j in zip(a, b) if i == j]
+

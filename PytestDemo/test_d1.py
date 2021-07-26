@@ -17,3 +17,8 @@ def test_d1_2():
     msg = 'Sagar'
     assert msg == 'Hello'
 
+
+def test_cross_browser(cross_browser):
+    print(cross_browser[0])
+    print(cross_browser[1])
+
