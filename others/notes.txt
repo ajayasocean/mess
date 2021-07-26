@@ -1,0 +1,7 @@
+t1
+t2
+
+select * from t1 as result left join (select * from t2 );
+
+how to get attributes of a class in selenium, command
+

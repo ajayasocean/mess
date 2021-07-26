@@ -67,3 +67,11 @@ def findMaximumHeight(N):
 
 [i for i, j in zip(a, b) if i == j]
 
+-------
+# credit limit
+SELECT ID, NAME
+FROM CUSTOMER
+WHERE COUNTRY = 'USA'
+AND CREDITS > 100000;
+
+-----
