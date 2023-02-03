@@ -12,11 +12,10 @@ def get_char_frequencies(st):
     return freq
 
 
-def are_2_strings_almost_equivalent(s, t):
+def are_2_strings_almost_equivalent(st, tt):
     result = []
-    equivalent = ''
-    for idx_s in s:
-        for idx_t in t:
+    for idx_s in st:
+        for idx_t in tt:
             if len(idx_s) != len(idx_t):
                 equivalent = 'No'
                 # result.append(equivalent)
@@ -31,13 +30,13 @@ def are_2_strings_almost_equivalent(s, t):
 
             # if no significant difference was found
             equivalent = 'Yes'
-            result.append(equivalent)
+        result.append(equivalent)
     return result
 
 
 if __name__ == '__main__':
-    s = ['aabaab', 'aaaaabb']
-    t = ['bbabbc', 'abb']
+    s = ['a', 'b']
+    t = ['c', 'd']
     print(are_2_strings_almost_equivalent(s, t))
 
 

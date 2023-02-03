@@ -7,8 +7,9 @@ class Driver:
     logger = ["--verbose", "--log-path=/Users/ajaysagar/ocean/mess/Selenium/chromedriver.log"]  # log file for chrome driver
 
     def call_chrome(self):
-        # to run run script in chromedriver
+        # to run script in chromedriver
         w_driver = webdriver.Chrome('/usr/local/share/chromedriver', service_args=self.logger)
+        # w_driver = webdriver.Chrome(executable_path='/usr/local/share/chromedriver.exe', service_args=self.logger)
         return w_driver
 
     def call_headless_chrome(self):
@@ -21,6 +22,6 @@ class Driver:
         return w_driver
 
     def call_firefox(self):
-        # to run run script in firefox
+        # to run script in firefox
         w_driver = webdriver.Firefox()
         return w_driver

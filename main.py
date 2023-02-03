@@ -1,4 +1,4 @@
-# this will call the scripts under Selenium directory
+"""this will call the scripts under Selenium directory"""
 # from Selenium.IntroSelenium import intro_selenium
 # from Selenium.locators import locators
 # from Selenium.MoreLocators import more_locators
@@ -15,7 +15,7 @@
 # from Selenium.ChainAction import adv_interactions
 # from Selenium.ActionClick import d_click
 # from Selenium.JsDemo import js_demo
-# from Selenium.e2etest import end_to_end
+from Selenium.e2etest import end_to_end
 
 
 def main():
@@ -73,7 +73,7 @@ def main():
     # js_demo(browser)
 
     # calling e2etest.py, use browser = chrome only for this one
-    # end_to_end(browser)
+    end_to_end(browser)
 
 
 if __name__ == '__main__':
