@@ -6,7 +6,7 @@ creating and activating venv
 ajay@LU-13S7152:~/learnSdet/pythonBasics/ZomatoScraper$ python -m venv .venv
 ajay@LU-13S7152:~/learnSdet/pythonBasics/ZomatoScraper$ source .venv/bin/activate
 
--------------
+    -------------
 Install libraries in this venv and then send files to requirements.txt file.
 (.venv) ajay@LU-13S7152:~/learnSdet/pythonBasics/ZomatoScraper$ pip install <packagename>
 (.venv) ajay@LU-13S7152:~/learnSdet/pythonBasics/ZomatoScraper$ pip freeze >> requirements.txt
